@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body class="wallpic">
+      <header class="parent1">
+        <div class="logo1">
+            <img class="logo" src="../static/image/istockphoto-1368447354-612x612.jpg" alt=" logo hydro">
+            <a href="{% url 'home1'%}"><h1 class="child1">Hydroponic</h1></a>
+        </div>
+            <nav class="child2">
+                <ul class="subchild1">
+                    <li><a href="{% url 'home4'%}">Home</a></li>
+                    <li><a href="{% url 'home5'%}">About</a></li>
+                    <li><a href="{% url 'home2'%}">Services</a></li>
+                    <li><a href="{% url 'home3'%}">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 class="mean">Hydroponics is the technique of growing plants using a water-based <br> nutrient solution rather than soil</h1>
+        <div class="benfites">
+            <img src="../static/image/benfites.webp" alt="">
+        </div>
+        <div class="how-work">
+            <img class="how-work-img" src="../static/image/how to work.png" alt="">
+            <div class="hpw-work-con"><h3>Hydroponics is a crop system that makes plants grow in a <br> nutrient-rich water solution; in other words it does not use soil. <br> Furthermore, the water used can be recovered and recycled, <br> and the nutrients can be obtained from a variety of sources, <br> including fish excrement (a technique known as aquaponics).</h3> <br><br><h1><a href="https://www.freshwatersystems.com/blogs/blog/what-are-hydroponic-systems#:~:text=Hydroponics%20is%20the%20cultivation%20of,stronger%20yields%2C%20and%20superior%20quality.">How Do They Work</a></h1></div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+        </footer>
+        
+        
+</body>
+</html>

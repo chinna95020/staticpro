@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="contentback">
+
+<header class="parent1">
+    <div class="logo1">
+        <img class="logo" src="../static/image/istockphoto-1368447354-612x612.jpg" alt=" logo hydro">
+        <a href="{% url 'home1'%}"><h1 class="child1">Hydroponic</h1></a>
+    </div>
+    <nav class="child2">
+        <ul class="subchild1">
+            <li><a href="{% url 'home4'%}">Home</a></li>
+            <li><a href="{% url 'home5'%}">About</a></li>
+            <li><a href="{% url 'home2'%}">Services</a></li>
+            <li><a href="{% url 'home3'%}">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="service">
+        <h2 class="content1">What is Hydroponic Farming?</h2>
+        <p class="content2">Hydroponics or hydroponic farming is the technique of cultivating plants in a nutrient medium solution of water without the presence of soil. Yes, it may sound surprising but scientists have successfully developed a method of cultivating various local crops without soil. The word hydroponics has been taken from two root words, ‘hydros’ meaning water and ‘ponos’ meaning working water.
+
+            Visual examples of hydroponic farming can be seen at the hanging gardens of Babylon and floating gardens of China.
+            
+            In this type of farming, the roots of the plant may or may not be supported by inner media. Perlite, gravel, rock wood, coconut coir, vermiculite, sand and pumice are some of the examples that are used as substrates in hydroponic farming.
+            
+            Tomatoes, strawberries and lettuce are the most common examples of plants grown hydroponically.</p>
+        <center><img class="content3" src="../static/image/content.png" alt=""></center>
+        <p class="content2">The nutrient solution or the fertiliser solution is composed of macronutrients such as Nitrogen, Potassium and Phosphorus and trace amounts of micronutrients such as Sulphur, Magnesium and Calcium. This solution is prepared in a tank and pumped through the system periodically. Sometimes, the hydroponic farming system also has a recirculating system where the nutrients that are not absorbed in plants are returned to the tank which can be used later.</p>
+        <h2 class="content1">Sensors and Controllers of Hydroponic Farming</h2>
+        <p class="content2">Since hydroponic farming is controlled by humans, there needs to be a way to measure or sense the environmental factors being consumed in the cultivation of plants. Temperature, pH, nutrient concentration, humidity and dissolved oxygen are some of the factors that directly affect the growth of plants.
+
+            Electrical conductivity sensors are used to measure the nutrient concentration. Similarly, ultrasonic waves or laser sensors can be used to measure the level of water without touching the system.</p>
+        <h2 class="content1">Advantages of Hydroponic Farming</h2>
+        <p class="content2"><i class="fa-solid fa-circle"></i> &nbsp The risk of pathogen contamination is low in hydroponic farming as compared to soil cultures. However, there is a slight chance of contamination through the nutrient tank. To overcome this, a sterilisation or disinfection system of ozone, filters, UV rays or heat is installed in these systems.</p>
+        <p class="content2"><i class="fa-solid fa-circle"></i> &nbsp It saves labour because it uses automatic irrigation and fertilising systems.</p>
+        <p class="content2"><i class="fa-solid fa-circle"></i> &nbsp It can even be set up indoors in small places which helps to bring greenery in densely populated areas.</p>
+        <p class="content2"><i class="fa-solid fa-circle"></i> &nbsp It is also being researched for implementation on spacecraft.</p>
+        <h2 class="content1">Disadvantages of Hydroponic Farming</h2>
+        <p class="content2"><i class="fa-solid fa-circle"></i> &nbsp It is costly to install.</p>
+        <p class="content2"><i class="fa-solid fa-circle"></i> &nbsp It depends on power and even a few hours of power outage can destroy the crops.</p>
+        <p class="content2"><i class="fa-solid fa-circle"></i> &nbsp The nutrient solution needs to be tested frequently.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

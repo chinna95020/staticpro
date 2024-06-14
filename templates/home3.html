@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body class="loginback">
+
+<fieldset class="field">
+    <form action="#" method="post" class="login-form">
+        <h2 class="h2log">Login</h2>
+        <div class="main-form">
+            <div class="form-group1">
+                <label for="username">Username</label><br>
+                <label for="Email">Email</label><br>
+                <label for="phno">Phone no</label><br>
+                <label for="password">Password</label><br>
+                <label for="password">conform Password</label><br>
+            </div>
+            <div class="form-group2">
+                <input type="text" id="username" name="username" required><br>
+                <input type="email" id="Email" name="email" required><br>
+                <input type="number" id="phno" name="phno" required><br>
+                <input type="password" id="password" name="password" required><br>
+                <input type="password" id="password" name="password" required><br>
+            </div>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</fieldset>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body class="company-back">
+
+<header class="parent1">
+    <div class="logo1">
+        <img class="logo" src="../static/image/istockphoto-1368447354-612x612.jpg" alt=" logo hydro">
+        <a href="{% url 'home1'%}"><h1 class="child1">Hydroponic</h1></a>
+    </div>
+    <nav class="child2">
+        <ul class="subchild1">
+            <li><a href="{% url 'home4'%}">Home</a></li>
+            <li><a href="{% url 'home5'%}">About</a></li>
+            <li><a href="{% url 'home2'%}">Services</a></li>
+            <li><a href="{% url 'home3'%}">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <center>
+    <section class="about">
+        <h2>Our Company</h2>
+        <div class="company-logo">
+           <img src="../static/image/istockphoto-1368447354-612x612.jpg" alt="">
+        </div>
+    </section>
+    </center>
+
+    <center>
+    <section class="team">
+        <h2>Our Team</h2>
+        <div class="team-member">
+            <img src="../static/image/team.jpg" alt="Team Member 1">
+        </div>
+    </section>
+    </center>
+    <section class="ceo">
+        <div class="ceopic">
+            <img src="../static/image/WhatsApp Image 2024-04-16 at 15.28.28_882a3b45.jpg" alt="">
+        </div>
+        <div class="con">
+           <h3>the highest-ranking executive in a company or organization. <br> And the responsible for overall strategic planning, <br> decision-making, and ensuring the company's success.</h3>
+        </div>
+        <div class="ceologo">
+            CEO
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

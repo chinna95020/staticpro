@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="{% static 'home.css' %}">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      
+</head>
+<body>
+      
+<header class="parent1">
+    <div class="logo1">
+        <img class="logo" src="../static/image/istockphoto-1368447354-612x612.jpg" alt=" logo hydro">
+        <a href="{% url 'home1'%}"><h1 class="child1">Hydroponic</h1></a>
+    </div>
+      <nav class="child2">
+          <ul class="subchild1">
+              <li><a href="{% url 'home4'%}">Home</a></li>
+              <li><a href="{% url 'home5'%}">About</a></li>
+              <li><a href="{% url 'home2'%}">Services</a></li>
+              <li><a href="{% url 'home3'%}">Contact</a></li>
+          </ul>
+      </nav>
+  </header>
+  <article class="parent2">
+    <div class="child3">
+        <img class="subchild2" src="../static/image/seed well.jpg" alt="seeds in hydro">
+        <div class="subchild3">Seed Well</div>
+    </div>
+    <div class="child4">
+        <img class="subchild4" src="../static/image/grow well.jpg" alt="growing plant">
+        <div class="subchild5">Grow Well</div>
+    </div>
+    <div class="child5">
+        <img class="subchild6" src="../static/image/eat well.jpg" alt="eating food">
+        <div class="subchild7">Eat Well</div>
+    </div>
+  </article>
+  <footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+</footer>
+  
+</body>
+</html>
